@@ -37,6 +37,7 @@ PLIST_TEMPLATE='''
 from pyipa import IPAparser
 from jinja2 import Template
 from urlparse import urljoin
+from urllib.parse import urljoin
 import os
 
 class PlistMaker(object):
